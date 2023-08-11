@@ -1,0 +1,13 @@
+#Daniel Lopez
+#8/11/23
+# Problem 5 (compute the conversion given a user input value. Print the calculated value using the degrees function in the math module)
+import math
+# Get user input for radians
+radians = float(input("Enter radians: "))
+
+# Convert radians to degrees using math.degrees
+degrees_conversion = math.degrees(radians)
+
+# Print the user input in degrees and the calculated value using math.degrees
+print("User input in degrees:", degrees_conversion)
+print("Calculated value using math.degrees:", math.degrees(radians))
