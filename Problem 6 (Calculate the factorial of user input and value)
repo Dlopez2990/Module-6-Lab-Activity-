@@ -1,0 +1,16 @@
+#Daniel Lopez
+#8/11/23
+# Problem 6 (compute the conversion given a user input value. Print the calculated value using the degrees function in the math module)
+import math
+
+# Get user input for calculating factorial
+n = int(input("Enter a number: "))
+
+# Calculate factorial using a for loop
+factorial = 1
+for i in range(1, n + 1):
+    factorial *= i
+
+# Print the calculated factorial and the value using math.factorial
+print("Factorial calculated:", factorial)
+print("Factorial using math.factorial:", math.factorial(n))
