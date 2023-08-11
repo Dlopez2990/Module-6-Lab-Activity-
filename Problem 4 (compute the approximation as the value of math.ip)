@@ -1,0 +1,11 @@
+#Daniel Lopez
+#8/11/23
+# Problem 4 (compute the approximation and then print that value as the value of math.pi )
+import math
+
+# Calculate approximation for pi using simple arithmetic
+approx_pi = 22 / 7
+
+# Print the calculated approximation and the value of math.pi
+print("Approximation for pi:", approx_pi)
+print("Value of math.pi:", math.pi)
