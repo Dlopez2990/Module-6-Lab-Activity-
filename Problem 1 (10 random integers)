@@ -1,0 +1,8 @@
+#Daniel L
+#8/11/23
+# problem 1 (to print 10 random integers between 25 and 35)
+import random
+
+for _ in range(10):
+    random_int = random.randrange(25, 36)  # Generates random integer between 25 and 35 (inclusive)
+    print(random_int)
