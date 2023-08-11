@@ -1,0 +1,7 @@
+#Daniel Lopez
+#8/11/23
+#problem 2 (Use random.randrange to print an odd integer between 0 and 100)
+import random
+
+random_odd = random.randrange(1, 101, 2)  # Generates random odd integer between 0 and 100
+print(random_odd)
